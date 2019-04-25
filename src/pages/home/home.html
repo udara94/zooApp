@@ -1,18 +1,35 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar class="navbar" color="mygreen">
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Home</ion-title>
+    <ion-title>Viago State Zoo</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h3>Ionic Menu Starter</h3>
+<ion-content padding class="background">
 
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
-
-  <button ion-button secondary menuToggle>Toggle Menu</button>
 </ion-content>
+
+<ion-footer color="lgreen" class="footer">
+
+  <ion-segment [(ngModel)]="selectedSegment" color="lgreen" class="segment">
+
+    <ion-segment-button (click)="viewAnimals()">
+      <ion-icon name="paw" style="zoom:1.5;"></ion-icon>
+    </ion-segment-button>
+
+    <ion-segment-button (click)="viewMap()">
+      <ion-icon name="map" style="zoom:1.5;"></ion-icon>
+    </ion-segment-button>
+
+    <ion-segment-button (click)="viewShop()">
+      <ion-icon name="ios-ice-cream" style="zoom:1.5;"></ion-icon>
+    </ion-segment-button>
+
+    <ion-segment-button (click)="capture()">
+      <ion-icon name="camera" style="zoom:1.5;"></ion-icon>
+    </ion-segment-button>
+  </ion-segment>
+
+</ion-footer>

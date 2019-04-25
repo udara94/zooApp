@@ -1,0 +1,21 @@
+page-bird-show {
+    .toolbar-background{
+        background: url('https://i.pinimg.com/originals/4b/a1/97/4ba19716add3ab0ff30583a4e680ac92.jpg');
+        background-repeat: no-repeat !important;
+        background-position: center;
+        background-size: cover;
+        height: 250px;
+       }
+      
+     
+      
+    
+       ion-navbar.toolbar {
+        min-height: 200px;
+        background: url('https://i.pinimg.com/originals/4b/a1/97/4ba19716add3ab0ff30583a4e680ac92.jpg');
+        background-repeat: no-repeat !important;
+        background-position: center;
+        background-size: cover;
+        height: 100px;
+    }
+}

@@ -1,0 +1,30 @@
+page-birds {
+    .myOverlay{
+        width: 100%;
+        height: 60px;
+        position: absolute;
+        z-index: 99;
+        bottom: 0px;
+        opacity: 0.9;
+        background:none;
+        color: #fff;
+    
+    }
+    img{
+        width:100%;
+        height:100%;
+      }
+      
+      .myCard{
+        position:relative;
+
+        background-image: url('../assets/imgs/panda/panda2.jpg')
+      
+      }
+      .head1{
+          color: #fff
+      }
+      .content{
+          background-color: #405d27
+      }
+}

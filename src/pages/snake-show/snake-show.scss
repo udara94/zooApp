@@ -1,0 +1,22 @@
+page-snake-show {
+
+    .toolbar-background{
+        background: url('https://img00.deviantart.net/05a9/i/2007/268/2/1/yearling_striped_corn_snake_4_by_shadedrain.jpg');
+        background-repeat: no-repeat !important;
+        background-position: center;
+        background-size: cover;
+        height: 250px;
+       }
+      
+     
+      
+    
+       ion-navbar.toolbar {
+        min-height: 200px;
+        background: url('https://img00.deviantart.net/05a9/i/2007/268/2/1/yearling_striped_corn_snake_4_by_shadedrain.jpg');
+        background-repeat: no-repeat !important;
+        background-position: center;
+        background-size: cover;
+        height: 100px;
+    }
+}

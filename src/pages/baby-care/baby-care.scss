@@ -1,0 +1,22 @@
+page-baby-care {
+
+    .toolbar-background{
+        background: url('http://static.thefrisky.com/uploads/2013/03/03/bottle-fed-animals-giraffe-600x450.jpg');
+        background-repeat: no-repeat !important;
+        background-position: center;
+        background-size: cover;
+        height: 250px;
+       }
+      
+     
+      
+    
+       ion-navbar.toolbar {
+        min-height: 200px;
+        background: url('http://static.thefrisky.com/uploads/2013/03/03/bottle-fed-animals-giraffe-600x450.jpg');
+        background-repeat: no-repeat !important;
+        background-position: center;
+        background-size: cover;
+        height: 100px;
+    }
+}

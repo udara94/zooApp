@@ -1,0 +1,30 @@
+<!--
+  Generated template for the PhotoPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="mygreen">
+    <ion-title>photo</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card>
+<img src="{{img}}" class="photo"/>
+</ion-card>
+
+<div align="center"><input type="text" placeholder="Say something about this photo" size="30" align="center"/></div>
+<br><br><br><br>
+<div align="center" >
+
+<button ion-button (click)="shakePhone();presentToast()" style="width: 100px;height: 100px;" clear><ion-icon color="mygreen" name="ios-paw" style="zoom:6.0;"></ion-icon></button><br>
+<button ion-button (click)="shakePhone();presentToast()" color="mygreen">Post</button>
+
+</div>
+
+</ion-content>

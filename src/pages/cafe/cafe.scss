@@ -1,0 +1,59 @@
+page-cafe {
+  
+   .toolbar-background{
+    background: url('http://orangemagazine.ph/wp-content/uploads/2016/07/13662419_10209546625118563_752423829_o.jpg');
+    background-repeat: no-repeat !important;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+   }
+  
+ 
+  
+
+   ion-navbar.toolbar {
+    min-height: 200px;
+    background: url('http://orangemagazine.ph/wp-content/uploads/2016/07/13662419_10209546625118563_752423829_o.jpg');
+    background-repeat: no-repeat !important;
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+}
+ion-slide.swiper-slide{
+    left:25%;
+    
+}
+
+.thumb-img{
+    padding:10px
+}
+.myOverlay{
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    z-index: 99;
+    bottom: 0px;
+    opacity: 0.9;
+    background:none;
+    color: #fff;
+
+}
+img{
+    width:100%;
+    height:100%;
+  }
+  
+  .myCard{
+    position:relative;
+   
+
+  
+  }
+  .head1{
+      color:red;
+      font-weight: 900;
+  }
+  
+ 
+  
+}

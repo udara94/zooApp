@@ -1,0 +1,21 @@
+page-souvernier {
+    .toolbar-background{
+        background: url('http://www.southwickszoo.com/wp-content/uploads/2014/10/plush-wall.jpg');
+        background-repeat: no-repeat !important;
+        background-position: center;
+        background-size: cover;
+        height: 250px;
+       }
+      
+     
+      
+    
+       ion-navbar.toolbar {
+        min-height: 200px;
+        background: url('http://www.southwickszoo.com/wp-content/uploads/2014/10/plush-wall.jpg');
+        background-repeat: no-repeat !important;
+        background-position: center;
+        background-size: cover;
+        height: 100px;
+    }
+}

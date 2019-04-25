@@ -1,0 +1,22 @@
+page-dolphine {
+
+    .toolbar-background{
+        background: url('https://cdn4.eyeem.com/thumb/647a5632b4e4c2d4e82d2693cfe1ec808f5067b5-1473074343903/w/600');
+        background-repeat: no-repeat !important;
+        background-position: center;
+        background-size: cover;
+        height: 250px;
+       }
+      
+     
+      
+    
+       ion-navbar.toolbar {
+        min-height: 200px;
+        background: url('https://cdn4.eyeem.com/thumb/647a5632b4e4c2d4e82d2693cfe1ec808f5067b5-1473074343903/w/600');
+        background-repeat: no-repeat !important;
+        background-position: center;
+        background-size: cover;
+        height: 100px;
+    }
+}

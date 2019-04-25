@@ -1,0 +1,21 @@
+page-crocodile-adventure {
+    .toolbar-background{
+        background: url('http://pulsaradvertising.com/wordpress/wp-content/uploads/2016/09/video-thumbnail-600x450.jpg');
+        background-repeat: no-repeat !important;
+        background-position: center;
+        background-size: cover;
+        height: 250px;
+       }
+      
+     
+      
+    
+       ion-navbar.toolbar {
+        min-height: 200px;
+        background: url('http://pulsaradvertising.com/wordpress/wp-content/uploads/2016/09/video-thumbnail-600x450.jpg');
+        background-repeat: no-repeat !important;
+        background-position: center;
+        background-size: cover;
+        height: 100px;
+    }
+}

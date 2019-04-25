@@ -1,16 +1,30 @@
+<div *ngIf="showSplash" class="splash">
+  <div class="spinner">
+    <div class="double-bounce1"></div>
+    <div class="double-bounce2"></div>
+  </div>
+</div>
+
+
 <ion-menu [content]="content">
   <ion-header>
-    <ion-toolbar>
+    <ion-toolbar color="mygreen">
       <ion-title>Menu</ion-title>
     </ion-toolbar>
   </ion-header>
 
   <ion-content>
-    <ion-list>
-      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
-        {{p.title}}
-      </button>
+    <img src="https://scontent.fcmb2-1.fna.fbcdn.net/v/t1.15752-9/32266491_10204855400022298_7774225856158760960_n.png?_nc_cat=0&oh=887fe7471409e510eeba14695406dbf2&oe=5B8098A5">
+   <br><br>
+    <ion-list class="side-menu">
+      
+      <button menuClose ion-item  (click)="nav.push(page2.mapage)" >&nbsp;&nbsp;<ion-icon color="mygreen" style="zoom:1.5;"  name="map"></ion-icon>Map</button>
+      <button menuClose ion-item  (click)="nav.push(page2.animal)" >&nbsp;&nbsp;<ion-icon color="mygreen" style="zoom:1.5;" name="paw"></ion-icon>Animals</button>
+      <button menuClose ion-item  (click)="nav.push(page2.gallery)" >&nbsp;&nbsp;<ion-icon color="mygreen" style="zoom:1.5;" name="md-image"></ion-icon>Gallery</button>
+      <button menuClose ion-item  (click)="nav.push(page2.cafe)" >&nbsp;&nbsp;<ion-icon color="mygreen" style="zoom:1.5;" name="ios-ice-cream"></ion-icon>Cafe & others</button>
+      <button menuClose ion-item  (click)="nav.push(page2.event)"  >&nbsp;&nbsp;<ion-icon color="mygreen" style="zoom:1.5;" name="ios-flag"></ion-icon>Events</button>
     </ion-list>
+  
   </ion-content>
 
 </ion-menu>

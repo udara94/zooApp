@@ -1,0 +1,59 @@
+
+<ion-header #head>
+
+  <ion-navbar color="mygreen">
+    <ion-title>mammals</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding hideheader [header]="head">
+  
+ 
+  <ion-card class="myCard" (click)="viewLion()" >
+      <img src="https://huntervalleyzoo.com.au/images/AnimalsHVZpage/Mammals/bruiser.jpg"  />
+    <div class="myOverlay" align="center">
+      <b>
+        <h1 class="head1">LION</h1>
+      </b>
+     
+    </div>
+  </ion-card>
+  <ion-card class="myCard" (click)="viewPanda()" >
+      <img src="http://www.amazingwallpaperz.com/wp-content/uploads/Baby-Panda-Digital-Wallpapers-600x450.jpg" />
+      <div class="myOverlay" align="center">
+        <b>
+          <h1 class="head1">PANDA</h1>
+        </b>
+      </div>
+    </ion-card>
+    <ion-card class="myCard" (click)="viewBear()" >
+        <img src="https://vignette.wikia.nocookie.net/symbolism/images/c/cf/Grizzly-bear_566_600x450.jpg/revision/latest?cb=20140818114915" />
+        <div class="myOverlay" align="center">
+          <b>
+            <h1 class="head1">BEAR</h1>
+          </b>
+        </div>
+      </ion-card>
+      <ion-card class="myCard" (click)="viewElephant()" >
+          <img src="http://kb4images.com/images/elephant-pictures/35853045-elephant-pictures.jpg" />
+          <div class="myOverlay" align="center">
+            <b>
+              <h1 class="head1">ELEPHANT</h1>
+            </b>
+          </div>
+        </ion-card>
+      
+        <ion-card class="myCard" (click)="viewGiraffe()" >
+            <img src="http://zoonooz.sandiegozoo.org/wp-content/uploads/2017/11/Giraffe-close-up-600x450.jpg" />
+            <div class="myOverlay" align="center">
+              <b>
+                <h1 class="head1">GIRAFFE</h1>
+              </b>
+            </div>
+          </ion-card>
+
+
+  
+</ion-content>

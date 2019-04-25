@@ -1,0 +1,59 @@
+<!--
+  Generated template for the ReptilesPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header #head>
+
+  <ion-navbar color="mygreen">
+    <ion-title>reptiles</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding hideheader [header]="head">
+    <ion-card class="myCard" (click)="viewTurtle()" >
+        <img src="http://www.twofishdivers.com/wp-content/uploads/2018/01/hawksbill_turtle-600x450.jpg"  />
+      <div class="myOverlay" align="center">
+        <b>
+          <h1 class="head1">TURTLE</h1>
+        </b>
+       
+      </div>
+    </ion-card>
+    <ion-card class="myCard" (click)="viewCrocodile()" >
+        <img src="https://journalpublication.files.wordpress.com/2014/03/ww-qa-3-worlds-longest-alligator-02-600x450.jpg" />
+        <div class="myOverlay" align="center">
+          <b>
+            <h1 class="head1">CROCODILE</h1>
+          </b>
+        </div>
+      </ion-card>
+      <ion-card class="myCard" (click)="viewPython()" >
+          <img src="https://www.wildlifeimages.org/wp-content/uploads/2016/07/ball-python_11-600x450.jpg" />
+          <div class="myOverlay" align="center">
+            <b>
+              <h1 class="head1">PYTHON</h1>
+            </b>
+          </div>
+        </ion-card>
+        <ion-card class="myCard" (click)="viewTortoise()" >
+            <img src="http://www.srgc.net/forum/index.php?action=dlattach;topic=6593.0;attach=263054" />
+            <div class="myOverlay" align="center">
+              <b>
+                <h1 class="head1">TORTOISE</h1>
+              </b>
+            </div>
+          </ion-card>
+        
+          <ion-card class="myCard" (click)="viewSnakes()" >
+              <img src="http://www.rutlandpethospital.com/wp-content/uploads/2017/05/FeatImage-Exocite-600x450.jpg" />
+              <div class="myOverlay" align="center">
+                <b>
+                  <h1 class="head1">SNAKES</h1>
+                </b>
+              </div>
+            </ion-card>
+</ion-content>
